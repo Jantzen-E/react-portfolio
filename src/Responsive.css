@@ -1,0 +1,18 @@
+@media screen and (max-width: 1320px) {
+    .navbar {
+        background-color: crimson;
+    }
+
+    .flex-grid.col {
+        width: 48%;
+    }
+    .flex-grid.leftSide {
+        width: 48%;
+    }
+    .flex-grid.rightSide {
+        width: 48%;
+    }
+    .flex-grid.center {
+        width: 48%;
+    }
+}

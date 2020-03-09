@@ -1,26 +1,68 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Page from './Page';
 import './App.css';
+import './Responsive.css';
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from 'react-router-dom';
+// import Nav from './Nav';
+// import Home from './Home';
+// import About from './About';
+// import Users from './Users';
+// import Nav from './Nav';
+// import './index.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Page />
+      </div>
+    )
+  }
 }
 
-export default App;
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <Router>
+//         <div className="navbar">
+//           <nav className="formatNav">
+//             <ul>
+//               <li className="navbarTitle">
+//                 <Link to="/">Home</Link>
+//               </li>
+//               <li className="navbarTitle">
+//                 <Link to="/about">About</Link>
+//               </li>
+//               <li className="navbarTitle">
+//                 <Link to="/users">Users</Link>
+//               </li>
+//               <li className="navbarTitle">
+//                 <Link to="/resume">Resume</Link>
+//               </li>
+//               <li className="navbarTitle">
+//                 <Link to="/contact">Contact Me</Link>
+//               </li>
+//             </ul>
+//           </nav>
+//           <Switch />
+//             <Route exact path="/about">
+//               <About />
+//             </Route> 
+//             <Route exact path="/users">
+//               <Users />
+//             </Route>
+//             <Route exact path="/">
+//               <Home />
+//             </Route>
+//           <Switch />
+//         </div>
+//       </Router>
+//     );
+//   }
+// }
+
