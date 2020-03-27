@@ -20,6 +20,13 @@ code {
   display: flex;
   justify-content: space-evenly;
   flex-flow: row;
+  list-style-type: none;
+}
+
+.navbarLinks {
+  color: rgb(209, 212, 212);
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 .navbarTitle {
@@ -31,6 +38,20 @@ code {
   cursor: pointer;
   list-style-type: none;
   display: flex;
+}
+
+.aboutMe {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.aboutMeTitle {
+  margin-left: 10%;
+}
+
+.resumePage {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* .formatNav {
@@ -87,6 +108,7 @@ code {
   background-position: center;
   margin-top: 7%;
   margin-bottom: 1%;
+  border: 1px solid black;
 }
 
 .col1 {
@@ -100,6 +122,7 @@ code {
   background-position: center, center;
   margin-bottom: 1%;
   margin-top: 7%;
+  border: 1px solid black;
 }
 
 .col2 {
@@ -113,6 +136,7 @@ code {
   background-position: center, center;
   margin-bottom: 1%;
   margin-top: 7%;
+  border: 1px solid black;
 }
 
 .col2row2 {
@@ -126,6 +150,7 @@ code {
   background-position: center, center;
   margin-bottom: 1%;
   margin-top: 7%;
+  border: 1px solid black;
 }
 
 .col3 {
@@ -139,6 +164,7 @@ code {
   background-position: center, center;
   margin-bottom: 1%;
   margin-top: 7%;
+  border: 1px solid black;
 }
 
 .flex-grid.col {
@@ -147,6 +173,7 @@ code {
 
 .flex-grid {
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 h1 {

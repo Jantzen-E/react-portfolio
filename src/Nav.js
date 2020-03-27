@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Responsive.css';
 import { Link } from 'react-router-dom';
-import About from './About';
+// import About from './About';
 
 // export default class Nav extends Component {
 //     render() {
@@ -22,31 +22,17 @@ export default class Nav extends Component {
         return (
             <div>
                 <ul className='navbar'>
-                    <li>
-                      <Link to="/">Home</Link>  
+                    <li >
+                      <Link to="/" className="navbarLinks">Home</Link>  
                     </li>
-                    <li>
-                        <Link to="/about">about</Link>  
+                    <li >
+                        <Link to="/about" className="navbarLinks">About</Link>  
                     </li>
-                    <li>
-                        <Link to="/users">users</Link>  
+                    <li >
+                        <Link to="/resume" className="navbarLinks">Resume</Link>  
                     </li>
                 </ul>
             </div>
         )
     }
 }
-
-{/* <ul className="navbarTitle">
-                    <li className="linkLi">
-                        <Link to="/page1" className="link">page 1</Link>
-                    </li>
-                    <div/>
-                    <li className="linkLi">
-                        <Link to="/page2" className="link">page2</Link>
-                    </li>
-                    <div/>
-                    <li className="linkLi">
-                        <Link to="/page3" className="link">page 3</Link>
-                    </li>
-                </ul> */}

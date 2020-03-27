@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Page from './Page';
+// import Page from './Page';
 import './App.css';
 import './Responsive.css';
 import {
@@ -11,7 +11,7 @@ import {
 import Nav from './Nav';
 import Home from './Home';
 import About from './About';
-import Users from './Users';
+import Resume from './Resume';
 // import Nav from './Nav';
 import './index.css';
 
@@ -54,8 +54,8 @@ export default class App extends Component {
             <Route exact path="/about">
               <About />
             </Route> 
-            <Route exact path="/users">
-              <Users />
+            <Route exact path="/resume">
+              <Resume />
             </Route>
             <Route exact path="/">
               <Home />
