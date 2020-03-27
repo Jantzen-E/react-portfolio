@@ -18,7 +18,8 @@ code {
   padding-top: 2%;
   padding-bottom: 2%;
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  flex-flow: row;
 }
 
 .navbarTitle {
@@ -80,10 +81,12 @@ code {
   width: 16em;
   height: 12em;
   background-color: rgb(209, 212, 212);
-  background-size: contain;
+  background-image: url('https://i.imgur.com/kee2AWK.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-top: 7%;
   margin-bottom: 1%;
-
 }
 
 .col1 {
@@ -104,7 +107,20 @@ code {
   width: 16em;
   height: 12em;
   background-color: rgb(209, 212, 212);
-  background-image: url('https://i.imgur.com/9sp7faF.jpg');
+  background-image: url('https://i.imgur.com/HTK1gSW.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  margin-bottom: 1%;
+  margin-top: 7%;
+}
+
+.col2row2 {
+  flex: 1;
+  width: 16em;
+  height: 12em;
+  background-color: rgb(209, 212, 212);
+  background-image: url('https://i.imgur.com/JVJm8Av.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
@@ -161,5 +177,17 @@ h3 {
 
 #topRow {
   margin-top: 2%;
+}
+
+/* .aTag {
+  margin-bottom: 10%;
+} */
+
+.tileTitle {
+  margin-top: 10%;
+}
+
+.tileTitle1 {
+  margin-bottom: 5%;
 }
 

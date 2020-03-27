@@ -1,17 +1,16 @@
-// import React from 'react';
+import React from 'react';
+import Page from './Page';
 
-// class Users extends React.Component {
-//     constructor(props) {
-//         super(props);
-//     }
+class Users extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-//     render() {
-//         return (
-//             <div>
-//                 This page shows the users
-//             </div>
-//         )
-//     }
-// }
+    render() {
+        return (
+            <Page />
+        )
+    }
+}
 
-// export default Users;
+export default Users;

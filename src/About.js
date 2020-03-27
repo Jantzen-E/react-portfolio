@@ -1,17 +1,15 @@
-// import React from 'react';
+import React from 'react';
+import Page from './Page';
+class About extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-// class About extends React.Component {
-//     constructor(props) {
-//         super(props);
-//     }
+    render() {
+        return (
+            <Page />
+        )
+    }
+}
 
-//     render() {
-//         return (
-//             <div>
-//                 This page is about me
-//             </div>
-//         )
-//     }
-// }
-
-// export default About;
+export default About;

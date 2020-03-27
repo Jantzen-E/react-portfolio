@@ -13,7 +13,7 @@ class Page extends React.Component {
     render() {
         return(
             <div>
-                <Nav />
+                {/* <Nav /> */}
                 <Title />
                 <Grid />
                 <Footer />
