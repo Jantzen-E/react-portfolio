@@ -22,12 +22,12 @@ class Resume extends React.Component {
                     <article className="skills"><h2>Skills</h2>
                         <section>
                             <ul className="listOfSkills">
+                                <li>React</li>
+                                <li>MongoDB</li>
+                                <li>JavaScript</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Restful API's</li>
-                                <li>React</li>
-                                <li>JavaScript</li>
-                                <li>MongoDB</li>
                                 <li>Postman</li>
                                 <li>Visual Studio Code</li>
                             </ul>
@@ -37,20 +37,26 @@ class Resume extends React.Component {
                         <section>
                             <h4>Nature's Marvels</h4>
                             <ul>
-                                <li>Indexes healthy, natural products with nutritional and medical benefits to improve overall well-being</li>
-                                <li>React, MongoDB, restful API, CSS, and HTML</li>
+                                <li>Full-Stack Application indexing healthy, natural products with nutritional and 
+                                    medical benefits; learned how to make reusable components
+                                </li>
+                                <li>Utilized: React, MongoDB, restful API, CSS, HTML, and responsive design</li>
                             </ul>
                             <br></br>
                             <h4>Camping Checklist</h4>
                             <ul>
-                                <li>A list of items separated into categories, so you won't forget anything for your next campout</li>
-                                <li>JavaScript, CSS, and HTML</li>
+                                <li>A list of camping items separated into categories; learned how to implement 
+                                    media queries
+                                </li>
+                                <li>Utilized: JavaScript, CSS, HTML, and responsive design</li>
                             </ul>
                             <br></br>
                             <h4>Portfolio</h4>
                             <ul>
-                                <li>Showcases completed projects using different technologies</li>
-                                <li>CSS, HTML, and Bootstrap</li>
+                                <li>Showcases completed projects in a grid format; learned about utilizing the 
+                                    Bootstrap library
+                                </li>
+                                <li>CSS, HTML, Bootstrap, jQuery, and responsive design</li>
                             </ul>
                         </section>
                     </article>    
@@ -176,6 +182,10 @@ class Resume extends React.Component {
                     <article><h2>Education/Certifications</h2>
                         <section>
                             <ul>
+                                <li>
+                                    Full-Stack Web Development Course Completion | Salt Lake City, UT | Helio Training 
+                                    | Mar 2020
+                                </li>
                                 <li>
                                     Bachelor of Science in Business Management | Western Governor's 
                                     University | Salt Lake City, UT | Jan 2018
