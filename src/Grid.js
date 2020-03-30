@@ -34,7 +34,13 @@ class Grid extends React.Component {
                 </div>
                 <div className="rightSide">
                     <div className="tileTitle1">Portfolio using Bootstrap</div>
-                    <a href="https://pensive-turing-40686f.netlify.com/"><h2 className="col3" id="topRow"></h2></a><a href="https://github.com/Jantzen-E/portfolio">View source code</a>
+                    <div>
+                        <a href="https://pensive-turing-40686f.netlify.com/"><h2 className="col3" id="topRow"></h2></a><a href="https://github.com/Jantzen-E/portfolio">View source code</a>
+                    </div>
+                    <div className="tileTitle">Credit Score App</div>
+                    <div>
+                        <a href="https://dazzling-ptolemy-f505d6.netlify.com/"><h2 className="col3row2"></h2></a><a href="https://github.com/Jantzen-E/credit-score">View source code</a>
+                    </div>
                     {/* <h2 className="col"></h2><a href="">View source code</a>
                     <h2 className="col" id="bottomGridTile"></h2><a href="">View source code</a> */}
                 </div>

@@ -105,7 +105,7 @@ code {
   background-image: url('https://i.imgur.com/kee2AWK.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: -7px, center;
   margin-top: 7%;
   margin-bottom: 1%;
   border: 1px solid black;
@@ -133,7 +133,7 @@ code {
   background-image: url('https://i.imgur.com/HTK1gSW.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center, center;
+  background-position: -3px, center;
   margin-bottom: 1%;
   margin-top: 7%;
   border: 1px solid black;
@@ -148,6 +148,20 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
+  margin-bottom: 1%;
+  margin-top: 7%;
+  border: 1px solid black;
+}
+
+.col3row2 {
+  flex: 1;
+  width: 16em;
+  height: 12em;
+  background-color: rgb(209, 212, 212);
+  background-image: url('https://i.imgur.com/ABMx888.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px, center;
   margin-bottom: 1%;
   margin-top: 7%;
   border: 1px solid black;
@@ -206,10 +220,6 @@ h3 {
   margin-top: 2%;
 }
 
-/* .aTag {
-  margin-bottom: 10%;
-} */
-
 .tileTitle {
   margin-top: 10%;
 }
@@ -217,4 +227,3 @@ h3 {
 .tileTitle1 {
   margin-bottom: 5%;
 }
-
