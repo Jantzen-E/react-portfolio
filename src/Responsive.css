@@ -1,7 +1,7 @@
 @media screen and (max-width: 1295px) {
-    .navbar {
+    /* .navbar {
         background-color: crimson;
-    }
+    } */
 
     /* .flex-grid.col {
         width: 48%;
@@ -70,9 +70,9 @@
 }
 
 @media screen and (max-width: 1030px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(220, 183, 20);
-    }
+    } */
 
     .flex-grid {
         display: flex;
@@ -122,9 +122,9 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(43, 220, 20);
-    }
+    } */
 
     .col1 {
         width: 37.5em;
@@ -168,9 +168,9 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(23, 20, 220);
-    }
+    } */
 
     .col1 {
         width: 37em;
@@ -214,9 +214,9 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(203, 20, 220);
-    }
+    } */
 
     .col1 {
         width: 36em;
@@ -260,9 +260,9 @@
 }
 
 @media screen and (max-width: 970px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(20, 220, 193);
-    }
+    } */
 
     .col1 {
         width: 30em;
@@ -306,9 +306,9 @@
 }
 
 @media screen and (max-width: 820px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(220, 20, 20);
-    }
+    } */
 
     .col1 {
         width: 27em;
@@ -361,9 +361,9 @@
 }
 
 @media screen and (max-width: 730px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(220, 150, 20);
-    }
+    } */
 
     .col1 {
         width: 24em;
@@ -407,9 +407,9 @@
 }
 
 @media screen and (max-width: 650px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(117, 220, 20);
-    }
+    } */
 
     h1 {
         font-size: 3em;
@@ -465,9 +465,9 @@
 }
 
 @media screen and (max-width: 580px) {
-    .navbar {
+    /* .navbar {
         background-color: rgb(220, 20, 20);
-    }
+    } */
 
     .col1 {
         width: 16em;
