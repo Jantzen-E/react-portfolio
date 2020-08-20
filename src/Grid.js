@@ -18,6 +18,10 @@ class Grid extends React.Component {
                         Full-Stack Application                        
                         <a href="https://goofy-williams-8781e5.netlify.com/"><h2 className="col"></h2></a><a href="https://github.com/Jantzen-E/water-filters-ui" className="aTag">View source code</a>
                     </div>
+                    <div className="tileTitle">
+                        Wasatch Sleep Health Center                        
+                        <a href="https://frosty-mayer-ddf8f6.netlify.app/"><h2 className="col1row3"></h2></a><a href="https://github.com/Jantzen-E/wasatch-sleep" className="aTag">View source code</a>
+                    </div>
                     {/* <h2 className="col" id="bottomGridTile"></h2><a href="">View source code</a> */}
                 </div>
                 <div className="center">
