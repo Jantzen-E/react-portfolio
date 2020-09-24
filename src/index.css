@@ -99,8 +99,8 @@ code {
 
 .col {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/kee2AWK.jpg');
   background-repeat: no-repeat;
@@ -113,8 +113,8 @@ code {
 
 .col1 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/f6a7DNn.jpg');
   background-repeat: no-repeat;
@@ -127,8 +127,8 @@ code {
 
 .col1row3 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('./images/wasatchSleep.JPG');
   background-repeat: no-repeat;
@@ -141,8 +141,8 @@ code {
 
 .col2 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/HTK1gSW.jpg');
   background-repeat: no-repeat;
@@ -155,8 +155,8 @@ code {
 
 .col2row2 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/JVJm8Av.jpg');
   background-repeat: no-repeat;
@@ -169,8 +169,8 @@ code {
 
 .col3row2 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/ABMx888.jpg');
   background-repeat: no-repeat;
@@ -183,8 +183,8 @@ code {
 
 .col3 {
   flex: 1;
-  width: 16em;
-  height: 12em;
+  width: 24em;
+  height: 18em;
   background-color: rgb(209, 212, 212);
   background-image: url('https://i.imgur.com/BDPfj85.jpg');
   background-repeat: no-repeat;

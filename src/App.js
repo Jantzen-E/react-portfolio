@@ -5,14 +5,12 @@ import './Responsive.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
 import About from './About';
 import Resume from './Resume';
-// import Nav from './Nav';
 import './index.css';
 
 // export default class App extends Component {
