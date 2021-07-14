@@ -427,6 +427,13 @@
         justify-content: center;
     }
 
+    .col1row3 {
+        flex: 1;
+        width: 21em;
+        height: 16em;
+        /* this is the wasatch sleep */
+    }
+
     .col2 {
         width: 21em; 
         height: 16em;
@@ -462,6 +469,11 @@
     .footer {
         font-size: 1.4em;
     }
+
+    .col3row2 {
+        width: 21em; 
+        height: 16em;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -470,15 +482,24 @@
     } */
 
     .col1 {
-        width: 16em;
+        width: 18em;
         height: 12em;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
+    .col3row2 {
+        width: 18em; 
+        /* height: 12em; this is the credit app */
+    }
+
+    .col1row3 {
+        width: 18em;
+    }
+
     .col2 {
-        width: 16em; 
+        width: 18em; 
         height: 12em;
         display: flex;
         align-items: center;
@@ -486,7 +507,7 @@
     }
 
     .col2row2 {
-        width: 16em; 
+        width: 18em; 
         height: 12em;
         display: flex;
         align-items: center;
@@ -494,7 +515,7 @@
     }
 
     .col {
-        width: 16em; 
+        width: 18em; 
         height: 12em;
         display: flex;
         align-items: center;
@@ -502,10 +523,26 @@
     }
 
     .col3 {
-        width: 16em; 
+        width: 18em; 
         height: 12em;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .navbarLinks {
+        font-size: 1rem;
+    }
+
+    a.githubLink {
+        font-size: .8rem;
+    }
+
+    a.linkedInLink {
+        font-size: .8rem;
+    }
+
+    .footerTitle {
+        font-size: .8rem;
     }
 }
